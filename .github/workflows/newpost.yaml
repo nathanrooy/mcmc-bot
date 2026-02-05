@@ -8,6 +8,7 @@ on:
 jobs:
   main:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     env:
       BSKY_USER: ${{ secrets.BSKY_USER }}
       BSKY_PSWD: ${{ secrets.BSKY_PSWD }}
